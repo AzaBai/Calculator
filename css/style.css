@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: burlywood;
+}
+.calculator {
+    display: block;
+    width: 300px;
+    padding: 50px 15px 15px 15px;
+    background: gray;
+    text-align: right;
+
+}
+
+.btns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+button {
+    outline: unset;
+}
+.btn{
+    height: 35px;
+    width:100%;
+    outline: none;
+}
+.btn:focus {
+    outline: none;
+}
+.output{
+    margin: 20px 0;
+    padding: 5px;
+    font-size: 30px;
+    background: white;
+}
